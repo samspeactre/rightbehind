@@ -1,0 +1,9 @@
+.bar-width {
+  width: 54%;
+  margin: auto;
+}
+
+.search-bar {
+  width: 100% !important;
+  text-align: center;
+}
