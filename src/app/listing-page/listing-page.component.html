@@ -117,10 +117,13 @@
         </div>
       </div>
     </div>
-      <google-map height="80%" width="50%" [center]="center" [zoom]="zoom"   (mapClick)="moveMap($event)" [options]="options"
+      <google-map height="93%" width="50%" [center]="center" [zoom]="zoom"   (mapClick)="moveMap($event)" [options]="options"
       (mapClick)="addMarker($event)" (mapMousemove)="move($event)">
       <map-marker *ngFor="let markerPosition of markerPositions" [position]="markerPosition"
         [options]="markerOptions"></map-marker>
     </google-map>
   </div>
 </div> 
+  <div class="footer">
+      <app-footer></app-footer>
+  </div>

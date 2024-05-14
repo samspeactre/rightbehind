@@ -265,7 +265,7 @@ h1 {
     gap: 1rem;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 80%;
+    height: 93%;
     overflow-y: scroll;
 }
 
@@ -275,4 +275,7 @@ h1 {
 
 ::ng-deep .map-container{
     position: absolute !important;
+}
+.footer{
+    margin-top: 25vw;
 }
