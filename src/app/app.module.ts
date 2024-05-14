@@ -20,9 +20,13 @@ import { RentalCarouselComponent } from './rental-carousel/rental-carousel.compo
 import { SellerCarouselComponent } from './seller-carousel/seller-carousel.component';
 import { PropertyDetailsComponent } from './property-details/property-details.component';
 import { ListingsComponent } from './listings/listings.component';
+import { ListingPageComponent } from './listing-page/listing-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSelectModule} from '@angular/material/select';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     HomeComponent,
     NavbarComponent,
@@ -35,7 +39,8 @@ import { ListingsComponent } from './listings/listings.component';
     SellerCarouselComponent,
     PropertyDetailsComponent,
     ListingsComponent,
-  ],
+      ListingPageComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -44,9 +49,10 @@ import { ListingsComponent } from './listings/listings.component';
     MatFormFieldModule,
     MatInputModule,
     SlickCarouselModule,
-    NgxCarouselComponent
-
-    
+    NgxCarouselComponent,
+    BrowserAnimationsModule,
+    MatSelectModule,
+    GoogleMapsModule,
   ],
   exports: [NgxCarouselComponent],
   providers: [],

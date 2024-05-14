@@ -7,6 +7,7 @@ import { BlogCarouselComponent } from './blog-carousel/blog-carousel.component';
 import { RentalCarouselComponent } from './rental-carousel/rental-carousel.component';
 import { PropertyDetailsComponent } from './property-details/property-details.component';
 import { ListingsComponent } from './listings/listings.component';
+import { ListingPageComponent } from './listing-page/listing-page.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'rent-carousel', component: RentalCarouselComponent },
   { path: 'property-details', component: PropertyDetailsComponent },
   { path: 'listing', component: ListingsComponent },
+  { path: 'listing-page', component: ListingPageComponent },
 ];
 
 @NgModule({

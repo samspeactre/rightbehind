@@ -8,6 +8,15 @@
     box-sizing: border-box;
 }
 
+.material-icons-outlined:hover,
+.material-symbols-outlined:hover {
+  opacity: 1 !important;
+}
+
+.material-symbols-outlined {
+    font-weight: 200;
+}
+
 @font-face {
     font-family: 'reg';
     src: url(../src/assets/fonts/NeueHaasDisplayRoman.ttf);
